@@ -9,5 +9,5 @@ items.forEach((el, index) => {
 menus.innerHTML = lists;
 
 function navigate(link) {
-  alert(items[link]);
+  alert(items[link].replace(" ", "").toLowerCase());
 }
